@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "autoswap",
+  "version": "1.0.0",
+  "name": "AutoTotemSwap",
+  "description": "Автосвап тотемов по нажатию G",
+  "authors": ["Triumph"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.triumph.autoswap.AutoSwapMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21.4",
+    "fabric-api": "*"
+  }
+}
